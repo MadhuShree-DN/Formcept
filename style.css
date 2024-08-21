@@ -1,0 +1,421 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f7f9fc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 60px;
+  width: 250px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+#solution-dropdown {
+  background-color: #fff;
+  color: #333;
+  border-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Styling the options in the dropdown */
+#solution-dropdown option {
+  padding: 5px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: #e6f0fa;
+}
+.partners {
+  padding: 20px;
+  background-color: #558fc9;
+}
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #1e73be;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #1e73be;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background-color: #ff5151;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+.features {
+  text-align: center;
+  padding: 0;
+}
+
+.partners img {
+  margin: 0 15px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.headline {
+  margin-top: 40px;
+}
+
+.headline h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.headline .highlight {
+  color: #e74c3c;
+}
+
+.headline p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature {
+  background-color: rgb(255, 255, 255);
+  
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 22%;
+  min-width: 250px;
+  margin: 20px 10px;
+  text-align: center;
+}
+.imgbox {
+  width:150px;
+  height: 130px;
+  border-radius: 8px;
+  margin-top: 0;
+  margin-left: 25%;
+  background-color: #0058a3;
+}
+.feature img {
+  height: 100px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  
+}
+
+.feature h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #666;
+}
+.benefits-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.benefits-section h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.benefits-section .highlight {
+  color: #e74c3c;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.benefit-box {
+  background-color: #0058a3;
+  color: #ffffff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.benefit-box h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.benefit-box p {
+  font-size: 16px;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.cta-section h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.cta-section .highlight-red {
+  color: #e74c3c;
+}
+
+.cta-section p {
+  font-size: 16px;
+  color: #666;
+}
+.days-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.day-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.day-circle {
+  background-color: #e0e7ff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000;
+}
+
+.day-label {
+  font-size: 14px;
+}
+
+.day-number {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.day-box ul {
+  list-style: none;
+  padding: 0;
+  color: #0058a3;
+  text-align: left;
+}
+
+.day-box ul li {
+  margin: 10px 0;
+}
+
+.solutions-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.solutions-section h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.solutions-section .highlight {
+  color: #e74c3c;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+nav ul li a.active {
+  color: #e74c3c;
+  border-bottom: 2px solid #e74c3c;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #333;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #e9f1fc;
+}
+
+.problem-box, .solution-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.label {
+  color: #e9f1fc;
+  background-color:#1b74e4 ;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left {
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.right {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.updates {
+  margin-top: 20px;
+}
+
+.updates p {
+  margin-bottom: 10px;
+}
+
+.updates a {
+  color: blue;
+  text-decoration: none;
+}
+
+.updates a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
